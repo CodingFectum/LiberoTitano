@@ -1,0 +1,59 @@
+.Global---NavMenu a{
+    text-decoration: none !important;
+}
+.Global---menu-link{
+    color: #f4f4f4 !important;
+    border: 1px solid #ffb24700;
+    border-radius: 5px;
+    /* display: flex !important; */
+    /* align-items: center; */
+}
+.material-icons{
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 5px;
+}
+.Global---menu-nav-btn{
+    background-color: #8D2EFF !important;
+    border-radius: 13px;
+    border: 3px solid #6829B3 !important;
+    color: #fff !important;
+    font-weight: 500;
+}
+.Global---menu-link.borderTop{border-top: 2px solid #848D95; border-radius: unset;}
+.DF---menusocial{
+    background-color: #0097D8;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #ff000000;
+    text-decoration: none;
+    color: #fff !important;
+}
+.DF---menusocial:hover{
+    box-shadow: 2px 2px 2px #0097D8;
+}
+.DF---menusocial img{
+    width: 20px;
+}
+
+.Globle---Footer{
+    background-color: #FFD803;
+}
+.Globle---Footer::before{
+    content: 'sdfdsf';
+    /* background-image: url(../../images/abstracts/blueFoot.png); */
+    width: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100px;
+    color: transparent;
+}
+@media screen and (max-width: 600px) {
+    .Globle---Footer::before{
+        height: 90px;
+        background-size: auto 80px;
+    }
+}
+
+#fade-menu ul { background-color: #021526; }
+#fade-button { color: #f4f4f4;}

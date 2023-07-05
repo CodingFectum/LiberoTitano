@@ -1,0 +1,79 @@
+.Global_loader_class{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #343a408c;
+    background-color: rgba(12, 11, 26, 0.95);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    padding-top: 35vh;
+    backdrop-filter: blur(2px);
+}
+
+.Global_loader_class img {
+    animation: rotation 1s infinite linear;
+    -webkit-animation: rotation 1s infinite linear;
+}
+
+.Global_error{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    text-align: left;
+    z-index: 9999;
+    background-color: rgba(181, 0, 0, 0.851) !important;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    box-shadow: inset 0px 0px 20px 0px rgba(181, 0, 0, 0.851), 
+                inset 0px 0px 50px 0px rgba(181, 0, 0, 0.851), 
+                inset 0px 0px 12px 0px rgba(181, 0, 0, 0.851), 
+                      0px 0px 20px 0px rgba(181, 0, 0, 0.851), 
+                      0px 0px 50px 0px rgba(181, 0, 0, 0.851), 
+                      0px 0px 12px 0px rgba(181, 0, 0, 0.851) !important;
+}
+.Global_form_error{
+    width: -webkit-fill-available;
+    /* max-width: 300px; */
+    border-radius: 4px;
+    padding: 8px 30px;
+    font-weight: 600;
+    text-align: left;
+    color: #ffd0d0;
+    margin-top: -2rem !important;
+    margin-bottom: 2rem !important;
+    z-index: 9999;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(179, 0, 0, 0.851) !important;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    box-shadow: inset 0px 0px 20px 0px rgba(181, 0, 0, 0.851), 
+                inset 0px 0px 50px 0px rgba(181, 0, 0, 0.851), 
+                inset 0px 0px 12px 0px rgba(181, 0, 0, 0.851), 
+                    0px 0px 20px 0px rgba(181, 0, 0, 0.851), 
+                    0px 0px 50px 0px rgba(181, 0, 0, 0.851), 
+                    0px 0px 12px 0px rgba(181, 0, 0, 0.851) !important;
+}
+.Global_form_error.s,
+.Global_error.s{
+    background-color: rgba(45, 204, 111, 0.851) !important;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    box-shadow: inset 0px 0px 20px 0px rgba(45, 204, 112, 0.9), 
+                inset 0px 0px 50px 0px rgba(45, 204, 112, 0.9), 
+                inset 0px 0px 12px 0px rgba(45, 204, 112, 0.9), 
+                    0px 0px 20px 0px rgba(45, 204, 112, 0.9), 
+                    0px 0px 50px 0px rgba(45, 204, 112, 0.9), 
+                    0px 0px 12px 0px rgba(45, 204, 112, 0.9) !important;
+}
+@keyframes rotation {
+    from {
+        -webkit-transform: scale(1);
+    }
+    50%{
+        -webkit-transform: scale(1.2);
+    }
+    to {
+         -webkit-transform: scale(1);
+    }
+}
